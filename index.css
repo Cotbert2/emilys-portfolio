@@ -1,0 +1,88 @@
+
+body{
+    background: #ebe9e2;
+}
+.title{
+    text-align: center;
+    font-style: italic;
+    transition: 2s;
+    font-size: 70px;
+    text-shadow: 1px 5px 2px rgb(233, 209, 165);
+    margin-bottom: 0;
+}
+.autor{
+    font-size: 20px;
+    font-weight: 100;
+    text-shadow: none;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.secciones{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    text-align: center;
+    transform: scale(1.2);
+    transition: 1s;
+    background-color: #F2CB07;
+    padding:  20px 70px;
+    border-radius: 2rem;
+    margin: 5px;
+    transition: background-color 1s linear;
+    font-size: 30px;
+    font-style: italic;
+
+}
+ul a:hover{
+
+    background-color: #af9510;
+
+}
+figure{
+    display: flex;
+}
+.presentacion{
+display: block;
+margin: auto;
+margin-top: 0;
+padding-top:0;
+width: 750px;
+}
+#food{
+    background: url(./Images/Backgroundfood.jpeg);
+    backdrop-filter: blur(px);
+}
+.artcul{
+
+    backdrop-filter: blur(10px);
+}
+#art{
+    background: url(./Images/Artebackground);
+}
+.photo{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 30%;
+    padding: 0;
+    margin: 0;
+    padding: 20px;
+}
+#pai{
+    background: url(./Images/Paisajesbackgound.jpeg);
+}
+#ley{
+    background: url(./Images/LeyesBackground.jpeg);
+}
+#retarto{
+    background: url(./Images/reatratobackground.jpeg);
+}
+#claves{
+    background: url(./Images/clavesBackground.jpeg);
+}
